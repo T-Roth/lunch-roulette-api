@@ -6,5 +6,5 @@ Prompt:
 
 
 curl http://localhost:7071/api/restaurants?"latitude=47.6062&longitude=-122.3321&distance=5000&categories=sandwich&price=2&rating=4"
-https://lunch-roulette-api.azurewebsites.net/restaurants?latitude=47.6062&longitude=-122.3321&distance=5000&categories=sandwich&price=2&rating=4
+https://lunch-roulette-api.azurewebsites.net/api/restaurants?latitude=47.6062&longitude=-122.3321&distance=5000&categories=sandwich&price=2&rating=4
 
