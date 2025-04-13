@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "lunch_roulette_api": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7192",
+      "launchBrowser": false
+    }
+  }
+}

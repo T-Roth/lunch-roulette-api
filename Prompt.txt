@@ -1,0 +1,10 @@
+Prompt:
+1. Create an azure function that uses the Azure Map data subscription. 
+2. The function should listen for requests and have parameters for lat/long, distance, resturant categories [string], price, rating parameters. 
+3. When the function is called it will in turn call the map subscription service and retrieve the matching records
+4. Return the restaurant name, phone, address, url
+
+
+curl http://localhost:7071/api/restaurants?"latitude=47.6062&longitude=-122.3321&distance=5000&categories=sandwich&price=2&rating=4"
+https://lunch-roulette-api.azurewebsites.net/restaurants?latitude=47.6062&longitude=-122.3321&distance=5000&categories=sandwich&price=2&rating=4
+
